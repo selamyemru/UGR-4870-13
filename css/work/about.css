@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(78, 178,100);
+    border: 2px black solid;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.5em;
+    padding:0;
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 10px;
+    color: black;
+}
+.container{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    text-decoration: none;
+    background-color:black;
+    display:flex;
+   flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+#img1{
+    margin-left: 35px;
+    padding-right: 200px;
+    max-width: 100%;
+}
+.input{
+    max-width: 100%;
+    margin-top: 10px;
+    width: 100px;
+   height: 20px;
+   border-radius: 5px;
+   border: none;
+   }  
+a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+a:active{
+    color:red;
+}
+a:hover{
+    color:rgb(0, 255, 85);
+}
+h1{
+    text-align: center;
+}
+video{
+    max-width: 100%;
+    min-width: 100%;
+    grid-area: v;
+    margin-left: 10px;
+}
+.about{
+    min-height:100%;
+    display: grid;
+    grid-template-columns: 40% auto;
+    grid-template-rows: 400px;
+    gap:50px;
+    grid-template-areas: 
+              "v p";
+   /* flex-flow:row wrap;
+    column-gap:10px;*/
+
+}
+.phar{
+    grid-area: p;
+    max-width: 100%;
+    min-width: 100%;
+    margin-right: 10px;
+}
+#pr{
+    margin-left: 10px;
+}
+.img1{
+ max-width: 100%;
+}
+.table{
+   max-width: 100%;
+    display:flex;
+    flex-flow: row wrap;
+    column-gap:200px;
+    margin-left: 10px;
+
+}
+nav label{
+    color:white;
+}
+.footer{
+    height: 100%;
+    display:flex;
+    flex-flow: row wrap;
+    align-items:start;
+    column-gap:300px;
+    background-color: black;
+    color: white;
+   /* background-color: rgb(203, 203, 212);*/
+}
